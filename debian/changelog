@@ -1,0 +1,44 @@
+node-caseless (0.12.1-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-caseless: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop nodejs dependency
+  * Mark test dependencies with <!nocheck>
+
+ -- Yadd <yadd@debian.org>  Fri, 12 Nov 2021 23:35:39 +0100
+
+node-caseless (0.12.1-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto test & install
+  * New upstream version 0.12.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 27 Apr 2020 22:17:44 +0200
+
+node-caseless (0.12.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #850128)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 03 May 2017 19:38:19 +0530

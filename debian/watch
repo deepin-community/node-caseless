@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-caseless-$1/ \
+ https://github.com/mikeal/caseless/tags .*/archive/.*/v?([\d\.]+).tar.gz

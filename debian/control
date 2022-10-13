@@ -1,0 +1,25 @@
+Source: node-caseless
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , node-tape <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-caseless
+Vcs-Git: https://salsa.debian.org/js-team/node-caseless.git
+Homepage: https://github.com/mikeal/caseless
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-caseless
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: get/set/check for HTTP headers in a caseless manner
+ This library is incredibly useful when working with HTTP headers. It allows
+ you to get/set/check for headers in a caseless manner while also preserving
+ the caseing of headers the first time they are set.
+ .
+ Node.js is an event-based server-side JavaScript engine.
